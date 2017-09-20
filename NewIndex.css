@@ -4,7 +4,7 @@ body {
 }
 
 #banner {
-  background-image: url("https://github.com/TimonRey/as-a-service/master/Bild.png");
+  background-image: url("https://github.com/TimonRey/as-a-service/blob/master/Bild.png");
   transform: rotate(-180deg);
   background-size: cover;
   background-position: center;
