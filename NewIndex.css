@@ -1,0 +1,145 @@
+body {
+  background-color: #0A0A2A;
+  max-height: 100px;
+}
+
+#banner {
+  background-image: url("file:///Users/tturak/Documents/GitHub/as-a-service/Bild.png");
+  transform: rotate(-180deg);
+  background-size: cover;
+  background-position: center;
+  height: 1102px;
+  width: 1428px;
+}
+
+#banner .content h1 {
+  border: 4px solid white;
+  position: relative;
+  top: 720px;
+  width: 400px;
+  margin: 0 auto;
+  color: white;
+  transform-origin: center;
+  transform: rotate(-180deg);
+  text-align: center;
+  font-size: 50px;
+}
+
+#scrolling .SaaS {
+  padding: 60px;
+  text-align: justify;
+  z-index: 0;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+#scrolling .PaaS {
+  margin: 0 auto;
+  margin-top: -1090px;
+  padding: 30px;
+  text-align: justify;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+#scrolling .IaaS {
+  margin-left: 940px;
+  margin-top: -1060px;
+  padding: 30px;
+  text-align: justify;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+#text {
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+#text .similarities {
+  margin: 0 auto;
+  text-align: justify;
+  height: 500px;
+  width: 400px;
+}
+
+#text .triangle {
+  margin: 0 auto;
+}
+
+table {
+  height: 40%;
+  right: 40%;
+  margin: 15px auto;
+  overflow-y: scroll;
+  position: sticky;
+  width: 80%;
+}
+
+thead th {
+  background: #819FF7;
+  color: #FFF;
+  font-family: 'Georgia', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #E6E6E6;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}
+
+span {
+  font-family: 'Comic Sans MS', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  line-height: 24px;
+}
+
+p {
+  color: #A4A4A4;
+  font-size: 20px;
+}
+
+h2, h3 {
+  color: #A4A4A4;
+  font-size: 30px;
+}
+
+h4 {
+  color: #A4A4A4;
+  font-size: 25px;
+}
+
+h1 {
+  color: #A4A4A4;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+ul {
+  color: #A4A4A4;
+  font-size: 23px;
+}
+
+img {
+  margin: 0 auto;
+}
